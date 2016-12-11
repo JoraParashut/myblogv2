@@ -1,0 +1,18 @@
+.about_container{
+	display: flex;
+	width: 70%;
+	flex-direction: column;
+}
+
+.about_image{
+	float: left;
+	margin-right: 20px;
+	width: 20%;
+	height: 200px;
+	border: 1px solid black;
+	background: url(../img/hqdefault.jpg);
+	background-repeat: no-repeat;
+	background-position: 25% 85%; 
+	border-radius:30px;
+	border: 2px solid #F55D2D;
+}

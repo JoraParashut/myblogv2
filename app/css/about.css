@@ -1,0 +1,24 @@
+.about_container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.about_image {
+  float: left;
+  margin-right: 20px;
+  width: 20%;
+  height: 200px;
+  border: 1px solid black;
+  background: url(../img/hqdefault.jpg);
+  background-repeat: no-repeat;
+  background-position: 25% 85%;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  border: 2px solid #F55D2D; }

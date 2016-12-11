@@ -1,0 +1,20 @@
+.portfolio_list{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+.portfolio_item{
+	width: 100%;
+
+}
+.portfolio_item a{
+	width: 200px;
+	float: left;
+	margin-right: 20px;
+}
+.portfolio_item a img{
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
