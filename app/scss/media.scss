@@ -1,0 +1,44 @@
+@media screen and (max-width: 1400px) {
+	#button{
+		font-size: 0.8em;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	#button{
+		font-size: 0.6em;
+	}
+	.search_form_input{
+		width: 200px;
+	}
+}
+@media screen and (max-width: 850px){
+	#button{
+		font-size: 0.4em;
+	}
+	.search_form_input{
+		width: 180px;
+	}
+}
+@media screen and(max-width: 650px){
+	.nav_item a{
+		font-size: 0.6em;
+	}
+	.news_item_info{
+		font-size: 0.8em;
+	}
+	.search_form_input{
+		width: 150px;
+	}
+}
+@media screen and(max-width: 480px){
+	.nav_item a{
+		font-size: 0.4em;
+	}
+	.news_item_info{
+		font-size: 0.6em;
+	}
+	.search_form_input{
+		width: 100px;
+	}
+}
